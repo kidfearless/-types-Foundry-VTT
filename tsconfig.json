@@ -1,26 +1,29 @@
 {
 	"compilerOptions": {
-	  "sourceMap": true,
-	  "module": "esnext",
-	  "moduleResolution": "node",
-	  "esModuleInterop": true,
-	  "experimentalDecorators": true,
-	  "target": "es2017",
-	  "jsx": "react",
-	  "strictPropertyInitialization": true,
-	  "strictNullChecks": true,
-	  "strictBindCallApply": true,
-	  "removeComments": false,
-	  "pretty": true,
-	  "declaration": true,
-	  "declarationDir": "./declarations/",
-	  "lib": [
-		"dom",
-		"es6",
-	  ],
-	  "alwaysStrict": true,
-	  "outDir": "./dist/",
-	  "rootDir": "./src/"
+		"sourceMap": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"target": "es2017",
+		"jsx": "react",
+		"strictPropertyInitialization": true,
+		"strictNullChecks": true,
+		"strictBindCallApply": true,
+		"removeComments": false,
+		"pretty": true,
+		"declaration": true,
+		"declarationDir": "./declarations/",
+		"lib": [
+			"dom",
+			"es6",
+			"es2017",
+			"es5",
+			"dom.iterable"
+		],
+		"alwaysStrict": true,
+		"outDir": "./dist/",
+		"rootDir": "./src/"
 	},
 	"compileOnSave": true
 }
